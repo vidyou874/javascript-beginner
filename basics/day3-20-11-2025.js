@@ -70,7 +70,7 @@ const personalInfo = {
 const { name: fName, age, salary: ctcComponent } = personalInfo;
 console.log(fName, age, ctcComponent);
 
-const printUser = ({name: fName, age: currentAge}) => {
+const printUser = ({name: fName, age, currentAge}) => {    
     console.log(`Name is ${fName}, and age is ${age}`);
 };
 printUser(personalInfo);
